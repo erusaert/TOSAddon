@@ -13,7 +13,7 @@ g.settingsDirLoc = string.format("../addons/%s", addonNameLower);
 g.settingsFileLoc = string.format("%s/settings.json", g.settingsDirLoc);
 
 --ライブラリ読み込み
-local acutil = require('acutil');
+local acutil = require("acutil");
 
 g.settings = {
 	mode=0;
@@ -33,11 +33,11 @@ g.langText = {
 	},
 	["en"] = {
 		label = {
-			title   = "Notice",
+			title   = "Notices",
 			body    = "display selected notifications{nl}in system messages",
 			default = "default",
-			gacha   = "Gacha and Vaivora",
-			all     = "All Notice"
+			gacha   = "Gacha, Vaivora, and Evo",
+			all     = "All Notices"
 		},
 		message = {
 			initwarning = "Stops working as it conflicts with fucking global shout."
