@@ -36,7 +36,7 @@ g.langText = {
 			title   = "Notice",
 			body    = "display selected notifications{nl}in system messages",
 			default = "default",
-			gacha   = "Gacha and Vivora",
+			gacha   = "Gacha and Vaivora",
 			all     = "All Notice"
 		},
 		message = {
