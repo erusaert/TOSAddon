@@ -128,28 +128,29 @@ function g.NOTICESGOTOSYSMSG_FRAME_CREATE()
 	local frame = ui.GetFrame("systemoption");
 	local groupbox = GET_CHILD_RECURSIVELY(frame, "gameBox");
 	local langText = g.GET_LANG_MESSAGE();
-	
-	local header = groupbox:CreateOrGetControl("richtext", "NoticeTitle", 270, 290, 200, 24);
+
+	-- x, y, width height
+	local header = groupbox:CreateOrGetControl("richtext", "NoticeTitle", 270, 370, 200, 24);
 	tolua.cast(header, "ui::CRichText");
 	header:SetFontName("white_16_ol");
 	header:SetText("{@st43}" .. langText.label.title .. "{/}");
 	
-	local body = groupbox:CreateOrGetControl("richtext", "NoticeBody", 280, 330, 200, 24);
+	local body = groupbox:CreateOrGetControl("richtext", "NoticeBody", 280, 410, 200, 24);
 	tolua.cast(body, "ui::CRichText");
 	body:SetFontName("white_16_ol");
 	body:SetText("{@st43}{s14}" .. langText.label.body .. "{/}");
 
-	local defaultNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_0', 280, 370, 200, 24);
+	local defaultNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_0', 280, 450, 200, 24);
 	tolua.cast(defaultNotice, "ui::CRadioButton");
 	defaultNotice:SetFontName("brown_16_b")
 	defaultNotice:SetText(langText.label.default)
 	defaultNotice:SetGroupID("notice");
-	local gachaNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_1', 280, 400, 200, 24);
+	local gachaNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_1', 280, 480, 200, 24);
 	tolua.cast(gachaNotice, "ui::CRadioButton");
 	gachaNotice:SetFontName("brown_16_b")
 	gachaNotice:SetText(langText.label.gacha)
 	gachaNotice:AddToGroup(defaultNotice);
-	local allNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_2', 280, 430, 200, 24);
+	local allNotice = groupbox:CreateOrGetControl('radiobutton', 'Notice_2', 280, 510, 200, 24);
 	tolua.cast(allNotice, "ui::CRadioButton");
 	allNotice:SetFontName("brown_16_b")
 	allNotice:SetText(langText.label.all)
