@@ -132,77 +132,11 @@ EBIREMOVEDIALOGCONFIG_CONFIG_DEFS = {
                 type = "boolean",
                 default = false,
             },{
-                name = "earring1",
-                vname = "Earring frags",
+                name = "channeldialog",
+                vname = "Change the channel",
                 type = "boolean",
-                default = true,
-            },{
-                name = "earring2",
-                vname = "Earring frags (untradeable)",
-                type = "boolean",
-                default = true,
+                default = false,
             }
-            ,{
-                name = "belt1",
-                vname = "Belt frag",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "belt2",
-                vname = "Belt frag (untradeable)",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "wep ichor1",
-                vname = "weapon ichor frag",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "wep ichor2",
-                vname = "weapon ichor frag (untradeable)",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "armor ichor1",
-                vname = "armor ichor frag",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "armor ichor2",
-                vname = "armor ichor (untradeable)",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "skill gem1",
-                vname = "skill gem frag",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "skill gem2",
-                vname = "skill gem frag (untradeable)",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "spaulder1",
-                vname = "spaulder frag",
-                type = "boolean",
-                default = true,
-            }
-            ,{
-                name = "spaulder2",
-                vname = "spaulder frag (untradeable)",
-                type = "boolean",
-                default = true,
-            }
-
         }
     }
 }

@@ -2310,7 +2310,7 @@ function EBIREMOVEDIALOG_BEFORE_APPLIED_YESSCP_OPEN_BASIC_MSG(invItem)
         return
     end
     if (g.settings.brikynitedialog ==  true and invItem.type==11030012)or 
-       (g.settings.emblemfragmentdialog ==  true and invItem.type==699041)or 
+       (g.settings.emblemfragmentdialog ==  true and invItem.type==699041)or
        --earring frags
        (invItem.type==11200101)or 
        (invItem.type==11200001)or
@@ -2328,7 +2328,7 @@ function EBIREMOVEDIALOG_BEFORE_APPLIED_YESSCP_OPEN_BASIC_MSG(invItem)
         --spaulder frag
         (invItem.type==11200191)or
         (invItem.type==11200190)
-
+        
         then
         -- bypass default dialog
         local invFrame = ui.GetFrame("inventory");	
