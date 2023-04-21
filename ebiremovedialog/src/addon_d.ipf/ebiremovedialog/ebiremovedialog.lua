@@ -2312,16 +2312,16 @@ function EBIREMOVEDIALOG_BEFORE_APPLIED_YESSCP_OPEN_BASIC_MSG(invItem)
     if (g.settings.brikynitedialog ==  true and invItem.type==11030012)or 
        (g.settings.emblemfragmentdialog ==  true and invItem.type==699041)or 
        --earring frags
-       (invItem.type==11200001)or 
-       (invItem.type==11201019)or
+       (invItem.type==11200101)or 
+       (invItem.type==11200001)or
        --skill gem
        (invItem.type==11200182)or
        (invItem.type==11200181)or
        --ichors
-       (invItem.type==11201029)or 
-       (invItem.type==11201028)or 
-       (invItem.type==11201017)or 
-       (invItem.type==11201016)or 
+       (invItem.type==11201006)or 
+       (invItem.type==11201005)or 
+       (invItem.type==11201001)or 
+       (invItem.type==11201000)or 
         --belt frag
         (invItem.type==11200100)or
         (invItem.type==11200097)or
