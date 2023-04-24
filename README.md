@@ -1,7 +1,9 @@
 # TOSAddon
 ----
+Updating addons to fit my needs
 
-Pulled these addons from these guys
+
+Original addon creators: 
 
 https://github.com/torahamu
 noticesgotosysmsg
@@ -9,4 +11,5 @@ noticesgotosysmsg
 https://github.com/meldavy
 
 https://github.com/ebisuke/TosAddons/
+ebiremovedialog
 workpanel
